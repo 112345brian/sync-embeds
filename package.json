@@ -1,20 +1,24 @@
 {
   "name": "obsidian-sync-embeds",
-  "version": "2.0.0",
+    "version": "2.0.2",
   "description": "Create fully editable, live-synced note embeds",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
     "build": "NODE_ENV=production node esbuild.config.mjs"
   },
-  "keywords": ["obsidian", "plugin", "embeds"],
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "embeds"
+  ],
   "author": "uthvah",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.6",
     "builtin-modules": "^3.3.0",
     "esbuild": "0.17.3",
-    "obsidian": "latest"
+    "obsidian": "^1.13.1"
   },
   "dependencies": {
     "monkey-around": "^3.0.0"
